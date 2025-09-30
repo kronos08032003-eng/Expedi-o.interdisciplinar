@@ -7,6 +7,7 @@
 
     header.site-header {
       background: linear-gradient(135deg, #1e3a8a, #1f2937);
+
       color: #fff;
       padding: 3.5rem 1rem;
       text-align: center;
@@ -28,7 +29,24 @@
       color: #1f2937;
       font-weight: 700;
     }
+     
+    .main-image {
+  max-width: 1200px; /* aumenta a largura máxima */
+  width: 700px;       /* ocupa todo o espaço disponível */
+  height: 300px;      /* mantém a proporção da imagem */
+}
 
+    .img{
+      width: 10px;
+      height: 20px;
+      padding-left: 15px;
+      padding-top: 15px;
+      border-radius: 45px;
+    }
+    .jao{
+      padding-left: 800px;
+   
+    }
     .accordion-button {
       background-color: #f3f4f6;
       font-weight: 600;
